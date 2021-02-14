@@ -1,4 +1,4 @@
-package ch.swissaquarelle;
+package org.tastefuljava.swissaquarelle;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

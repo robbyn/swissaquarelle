@@ -1,4 +1,4 @@
-package ch.swissaquarelle.svc;
+package org.tastefuljava.swissaquarelle.svc;
 
 import org.springframework.stereotype.Service;
 

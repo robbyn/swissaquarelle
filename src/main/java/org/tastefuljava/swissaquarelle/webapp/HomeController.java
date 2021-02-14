@@ -1,6 +1,6 @@
-package ch.swissaquarelle.webapp;
+package org.tastefuljava.swissaquarelle.webapp;
 
-import ch.swissaquarelle.svc.HelloService;
+import org.tastefuljava.swissaquarelle.svc.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,7 +15,7 @@ public class HomeController {
         this.hs = hs;
     }
 
-    @GetMapping("/home")
+    @GetMapping("/")
     public String home(Model model) {
         model.addAttribute("hs", hs);
         return "index";

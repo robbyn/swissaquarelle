@@ -10,7 +10,7 @@
                 <goal>org.codehaus.mojo:exec-maven-plugin:3.0.0:exec</goal>
             </goals>
             <properties>
-                <exec.args>-Dloader.path=/Users/maurice/swissaquarelle/lib/ -classpath %classpath ch.swissaquarelle.Application</exec.args>
+                <exec.args>-Dloader.path=/Users/maurice/swissaquarelle/lib/ -classpath %classpath org.tastefuljava.swissaquarelle.Application</exec.args>
                 <exec.executable>java</exec.executable>
                 <exec.workingdir>/Users/maurice/projects/swissaquarelle</exec.workingdir>
             </properties>
@@ -25,7 +25,7 @@
                 <goal>org.codehaus.mojo:exec-maven-plugin:3.0.0:exec</goal>
             </goals>
             <properties>
-                <exec.args>-agentlib:jdwp=transport=dt_socket,server=n,address=${jpda.address} -Dloader.path=/Users/maurice/swissaquarelle/lib/ -classpath %classpath ch.swissaquarelle.Application</exec.args>
+                <exec.args>-agentlib:jdwp=transport=dt_socket,server=n,address=${jpda.address} -Dloader.path=/Users/maurice/swissaquarelle/lib/ -classpath %classpath org.tastefuljava.swissaquarelle.Application</exec.args>
                 <exec.executable>java</exec.executable>
                 <jpda.listen>true</jpda.listen>
                 <exec.workingdir>/Users/maurice/projects/swissaquarelle</exec.workingdir>
@@ -41,7 +41,7 @@
                 <goal>org.codehaus.mojo:exec-maven-plugin:3.0.0:exec</goal>
             </goals>
             <properties>
-                <exec.args>-Dloader.path=/Users/maurice/swissaquarelle/lib/ -classpath %classpath ch.swissaquarelle.Application</exec.args>
+                <exec.args>-Dloader.path=/Users/maurice/swissaquarelle/lib/ -classpath %classpath org.tastefuljava.swissaquarelle.Application</exec.args>
                 <exec.executable>java</exec.executable>
                 <exec.workingdir>/Users/maurice/projects/swissaquarelle</exec.workingdir>
             </properties>
