@@ -7,7 +7,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@PropertySource("file:swissaquarelle.properties")
+@PropertySource("file:conf/swissaquarelle.properties")
 public class Application extends SpringBootServletInitializer {
 
     @Override
