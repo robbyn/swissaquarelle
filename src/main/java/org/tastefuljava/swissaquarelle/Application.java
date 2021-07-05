@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@PropertySource("file:conf/swissaquarelle.properties")
+@PropertySource("file:${catalina.base}/conf/swissaquarelle.properties")
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);

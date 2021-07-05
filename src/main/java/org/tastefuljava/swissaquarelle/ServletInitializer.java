@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@PropertySource("file:conf/swissaquarelle.properties")
+@PropertySource("file:${catalina.base}/conf/swissaquarelle.properties")
 public class ServletInitializer extends SpringBootServletInitializer {
     @Override
     protected SpringApplicationBuilder configure(
