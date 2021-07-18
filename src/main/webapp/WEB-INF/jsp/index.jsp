@@ -28,6 +28,9 @@
                     <h1 class="column title has-text-centered">Première Exposition de la SSA</h1>
                 </div>
                 <div class="columns">
+                    <h1 class="column title has-text-centered"><c:out value="${hs.message}"/></h1>
+                </div>
+                <div class="columns">
                     <div class="column is-one-quarter has-text-right"><strong>Quand:</strong><br>mardi-vendredi:<br>samedi:</div>
                     <div class="column is-three-quarters">du 28 août au 9 septembre 2020<br>de 16h à 19h<br>de 11h à 17h</div>
                 </div>
